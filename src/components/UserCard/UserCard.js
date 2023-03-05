@@ -2,14 +2,14 @@ import React from 'react';
 import css from './UserCard.module.css';
 import PropTypes from 'prop-types';
 
-import useLocalStorage from '../../hooks/localStorage';
+import LocalStorage from '../../utils/localStorage';
 
 export default function UserCard ({ users: { id, user, tweets, followers, avatar } }) {
 	const KEY_FOLLOWERS = `followers ${id}`;
 	const KEY_BTN = `btn ${id}`;
 
-	const [btn, setBtn] = useLocalStorage(KEY_BTN, false);
-	const [follower, setFollower] = useLocalStorage(KEY_FOLLOWERS, followers);
+	const [btn, setBtn] = LocalStorage(KEY_BTN, false);
+	const [follower, setFollower] = LocalStorage(KEY_FOLLOWERS, followers);
 
 	const toggleBtn = () => {
 		if (!btn) {
@@ -21,7 +21,7 @@ export default function UserCard ({ users: { id, user, tweets, followers, avatar
 		}
 	};
 
-	const withPoint = follower.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+	const FollowerWithDot = follower.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
 
 	return (
 		<div className={css.card}>
@@ -42,7 +42,7 @@ export default function UserCard ({ users: { id, user, tweets, followers, avatar
 			</div>
             <div className={css.textBox}>
 			<div className={css.text}>{tweets} tweets</div>
-			<div className={css.text}>{withPoint} followers</div>
+			<div className={css.text}>{FollowerWithDot} followers</div>
             </div>
 			<button
 				onClick={() => {

@@ -1,6 +1,6 @@
 import UserCard from '../UserCard/UserCard';
-import css from './UserList.module.css';
 import PropTypes from 'prop-types';
+import css from './UserList.module.css';
 
 export default function UserList({ users }) {
 	return (

@@ -21,3 +21,11 @@
 		grid-gap: 20px;
 	}
 }
+
+.item {
+	transition: 1s
+}
+
+.item:hover {
+	transform: scale(105%);
+}

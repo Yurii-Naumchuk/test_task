@@ -1,14 +1,14 @@
-# Test_task
+# Тестове завдання
 
 Цей проєкт був створений за допомогою [Create React App](https://github.com/facebook/create-react-app)
 
 ---
 
-## **Мета**: створити картку для одного твіта та додати інтерактивності при клікові на кнопку.
+## Мета: створити картку для одного твіта та додати інтерактивності при клікові на кнопку.
 
 ---
 
-## **Технічне завдання**
+## Технічне завдання
 
 Відповідно до [макету](https://www.figma.com/file/zun1oP6NmS2Lmgbcj6e1IG/Test?node-id=0%3A1&t=xpiuQ5P70CDKoqs1-0)
 потрібно реалізувати картку юзера.
@@ -23,3 +23,17 @@
 3. Перейди в браузер за адресою <http://localhost:3000/>
 
 ---
+
+## Сторінка проекту
+
+[User-Card](https://yurii-naumchuk.github.io/test_task/)
+
+---
+
+## Над проєктом працювали
+
+Наумчук Юрій
+
+[Linkedin](https://www.linkedin.com/in/yurii-naumchuk-045a0324a/)
+
+[GitHab](https://github.com/Yurii-Naumchuk)
