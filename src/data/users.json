@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "user": "Homer Simpson",
+        "tweets": 1145,
+        "followers": 100500,
+        "avatar": "https://img.icons8.com/plasticine/256/homer-simpson.png"
+    },
+    {
+        "id": 2,
+        "user": "Bart Simpson",
+        "tweets": 542,
+        "followers": 100600,
+        "avatar": "https://img.icons8.com/doodle/256/bart-simpson.png"
+    },
+    {
+        "id": 3,
+        "user": "Lisa Simpson",
+        "tweets": 521,
+        "followers": 100900,
+        "avatar": "https://img.icons8.com/doodle/256/lisa-simpson.png"
+    },
+    {
+        "id": 4,
+        "user": "Maggie Simpson",
+        "tweets": 1,
+        "followers": 100800,
+        "avatar": "https://img.icons8.com/doodle/256/marge-simpson.png"
+    },
+    {
+        "id": 5,
+        "user": "Abraham Simpson",
+        "tweets": 22,
+        "followers": 100900,
+        "avatar": "https://img.icons8.com/doodle/256/abraham-simpson.png"
+    },
+    {
+        "id": 6,
+        "user": "Chief Clancy",
+        "tweets": 363,
+        "followers": 101500,
+        "avatar": "https://img.icons8.com/doodle/256/clancy-wiggum.png"
+    },
+    {
+        "id": 7,
+        "user": "Krusty The Clown",
+        "tweets": 653,
+        "followers": 102600,
+        "avatar": "https://img.icons8.com/doodle/256/krusty-the-clown.png"
+    },
+    {
+        "id": 8,
+        "user": "Mr. Burns",
+        "tweets": 362,
+        "followers": 99700,
+        "avatar": "https://img.icons8.com/doodle/256/charles-montgomery-burns.png"
+    },
+    {
+        "id": 9,
+        "user": "Milhouse Van Houten",
+        "tweets": 95,
+        "followers": 400600,
+        "avatar": "https://img.icons8.com/doodle/256/milhouse-van-houten.png"
+    }
+]
